@@ -28,9 +28,9 @@ The output directory is where any error CSVs are saved to. The default directory
 To interact with the API you need a token. The `Token` class object, once initialised, is passed to all other conquest_api classes.
 ```python
 >>> token = conquest_api.Token(api_url='https://localhost/ConquestApi/api/',
-... 						   username='user',
-... 						   password='passkey123',
-... 						   connection='Conquest Live')
+...                            username='user',
+...                            password='passkey123',
+...                            connection='Conquest Live')
 ```
 
 Get basic asset details
