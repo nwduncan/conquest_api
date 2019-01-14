@@ -5,6 +5,7 @@ This module allows the user to interact with the Conquest API using Python.
 Requirements:
     Python 3.x
     requests
+    Conquest API
 
 Installation:
     The module can be installed with pip using the below command.
