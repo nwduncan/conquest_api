@@ -2,6 +2,7 @@
 
 Conquest API Python Wrapper is a Python module for working the the Conquest API. This module uses Python 3.x
 
+The code is well documented so for comprehensive information regarding use of this module, refer to [\conquest_api\conquest_api.py](https://github.com/nwduncan/conquest_api/blob/master/conquest_api/conquest_api.py)
 
 ### Installation
 
