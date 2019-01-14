@@ -83,7 +83,7 @@ with open(filename, 'w', newline='') as open_file:
         writer.writerow(row)
 
 # create a token and initialise an import object
-token = conquest_api.Token(api_url='https://localhost/ConquestApi/api/', username='user', password='passkey123', connection='Conquest Live')
+token = conquest_api.Token(api_url='https://localhost/ConquestApi/api/', username='user', password='passkey123', connection='Conquest Live') 
 import_object = conquest_api.Import(token)
 # use the add method on the import object to import the newly created csv file
 import_file = import_object.add(filename=filename, import_type='Asset')
