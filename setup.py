@@ -7,6 +7,6 @@ setup(name='conquest_api',
       author_email='nduncan.au@gmail.com',
       install_requires=['requests'],
       version='0.9',
-      license='MIT',
+      license='GPLv3',
       description='A Python wrapper for working with the Conquest API'
 )

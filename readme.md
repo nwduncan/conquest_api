@@ -2,7 +2,7 @@
 
 Conquest API Python Wrapper is a Python module for working the the Conquest API. This module uses Python 3.x
 
-The code is well documented so for comprehensive information regarding use of this module, refer to [\conquest_api\conquest_api.py](https://github.com/nwduncan/conquest_api/blob/master/conquest_api/conquest_api.py)
+The code is well documented so for comprehensive information regarding use of this module refer to [\conquest_api\conquest_api.py](https://github.com/nwduncan/conquest_api/blob/master/conquest_api/conquest_api.py)
 
 ### Installation
 
@@ -93,7 +93,7 @@ All returns from the 'add' method include the batch id, boolean representing imp
 {'batch': 'e477baaf-4d0a-4668-9c79-7b4f42f7a11a', 'success': True, 'error_msg': None, 'error_file': None}
 ```
 
-*Note: 'success' will show as `False` if **any** errors are found during file validation. Some items from the file may still be imported correctly. View the 'Output to CSV' file listed in the 'error_file' for clarification.</br></br>*
+*Note: 'success' will show as `False` if **any** errors are found during file validation. Some items from the file may still have imported correctly. View the 'Output to CSV' file listed in the 'error_file' for clarification.</br></br>*
 
 Batch import all files within a folder.
 ```python
