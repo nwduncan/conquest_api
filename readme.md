@@ -46,9 +46,9 @@ Get basic asset details
 >>> asset_basic_multiple = asset.get_basic([116983, 116984, 116985])
 >>> for assetid in asset_basic_multiple:
 ...     print(f'{assetid}: {asset_basic_multiple[assetid]}')
->>> 116983: {'AssetID': 116983, 'AssetDescription': 'Alaska Court - 150mm PVC Sewer Gravity Main - AssetID 116983', 'DepartmentID': None, 'FamilyCode': '005.004.055.161','Location': None, 'ParentID': 113670}
->>> 116984: {'AssetID': 116984, 'AssetDescription': 'Alaska Court - 150mm PVC Sewer Gravity Main - AssetID 116984', 'DepartmentID': None, 'FamilyCode': '005.004.055.162','Location': None, 'ParentID': 113670}
->>> 116985: {'AssetID': 116985, 'AssetDescription': 'Utah Court - 150mm PVC Sewer Gravity Main - AssetID 116985', 'DepartmentID': None, 'FamilyCode': '005.004.055.163', 'Location': None, 'ParentID': 113670}
+116983: {'AssetID': 116983, 'AssetDescription': 'Alaska Court - 150mm PVC Sewer Gravity Main - AssetID 116983', 'DepartmentID': None, 'FamilyCode': '005.004.055.161','Location': None, 'ParentID': 113670}
+116984: {'AssetID': 116984, 'AssetDescription': 'Alaska Court - 150mm PVC Sewer Gravity Main - AssetID 116984', 'DepartmentID': None, 'FamilyCode': '005.004.055.162','Location': None, 'ParentID': 113670}
+116985: {'AssetID': 116985, 'AssetDescription': 'Utah Court - 150mm PVC Sewer Gravity Main - AssetID 116985', 'DepartmentID': None, 'FamilyCode': '005.004.055.163', 'Location': None, 'ParentID': 113670}
 ```
 
 Find action by field (this will only work if result is unique, otherwise an empty `dict` is returned)
