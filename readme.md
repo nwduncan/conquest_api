@@ -1,6 +1,6 @@
 # Conquest API Python Wrapper
 
-Conquest API Python Wrapper is a Python module for working the the Conquest API. This Python library uses Python 3.x
+Conquest API Python Wrapper is a Python module for working the the Conquest API. This module uses Python 3.x
 
 
 ### Installation
@@ -8,7 +8,7 @@ Conquest API Python Wrapper is a Python module for working the the Conquest API.
 ```
 pip install git+https://github.com/nwduncan/conquest_api.git
 ```
-I suggest creating a virtual environment `virtualenv` first
+*Consider installing in to a virtual environment*
 
 ---
 ### Usage Examples
@@ -53,7 +53,7 @@ Get basic asset details
 Find action by field (this will only work if result is unique, otherwise an empty `dict` is returned)
 ```python
 >>> action = conquest_api.Action(token)
->>> action_details = action.find_by_field('UserText30', '2f55a41e-7892-4c5c-a4a9-d06f3a474cae')
+>>> action_details = action.find_by_field(field='UserText30', value='2f55a41e-7892-4c5c-a4a9-d06f3a474cae')
 >>> action_details['ActionID']
 70138
 >>> action_details['ActionDescription']
