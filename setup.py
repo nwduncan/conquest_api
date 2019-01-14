@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='Conquest API',
+setup(name='conquest_api',
       url='https://github.com/nwduncan/conquest_api',
       author='Nathan Duncan',
       author_email='nduncan.au@gmail.com',
