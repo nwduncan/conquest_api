@@ -1,1 +1,1 @@
-from conquest_api.conquest_api import *
+from conquest_api import conquest_api
