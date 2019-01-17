@@ -1,1 +1,1 @@
-import conquest_api.conquest_api as conquest_api
+from .conquest_api import conquest_api
